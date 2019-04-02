@@ -7,13 +7,13 @@
 
 body
  { 
-    background-image:url(backs.jpg), url(back.jpg);
+    background-image:url(backs.jpg);
     height:100%;
     width:100%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-blend-mode: lighten;
+
  }
 
 .logo img
