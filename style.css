@@ -1,0 +1,312 @@
+html, body
+{
+   height: 100%;
+   width: 100%;
+}
+
+.navbar-inverse {
+    background-color: #172531 !important;
+    border-color: #526575!important;
+    padding: 0%  0% 0% 0%;
+    font-size: 1em ;
+    font-weight: bold;
+    
+}
+
+.navbar-brand img
+{
+    height: 36px;
+    padding: 0 0 15px;
+
+}
+
+
+.navbar-inverse .navbar-nav li a {
+   color: #D5D5D5;
+
+}
+
+.navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav li a.active {
+   color: gray;
+
+}
+
+
+
+
+
+#home
+  {
+     background:url(backs.jpg) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     width: 100%;
+     position: relative;
+     background-size: cover;
+
+}
+
+.landing-text {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;  
+}
+
+.landing-text img {
+   height: auto;
+   width: 500px;
+
+}
+
+.landing-text h1 {
+   font-size: 200%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.landing-text h3 {
+   font-size: 60%;
+   font-family: 'Domine', serif;  
+   color: white;
+
+}
+
+
+.download
+  { 
+   border: 2px solid white;
+   background-color: #526575;
+   padding: 6px 18px;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   border-radius:2px;
+   margin-right: 30px;
+
+  }
+
+.watch
+  { 
+   border: 2px solid #bec5cb;
+   background-color: none;
+   padding: 6px 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   border-radius:2px;
+
+  }
+
+.download:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.2s ease-in;
+
+   }
+
+.watch:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.3s ease-in;
+
+   }
+
+
+@media (max-width: 768px) {
+
+
+.landing-text img {
+   height: auto;
+   width: 400px;
+
+}    
+.landing-text h1 {
+   font-size: 150%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+.landing-text h3 {
+   font-size: 50%;
+   font-family: 'Domine', serif;  
+   color: white;
+
+}
+
+.download
+  { 
+   border: 2px solid white;
+   background-color: #526575;
+   padding: 6px 18px;
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+   border-radius:2px;
+   margin-right: 25px;
+
+  }
+
+.watch
+  { 
+   border: 2px solid #bec5cb;
+   background-color: none;
+   padding: 6px 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+   border-radius:2px;
+
+  }
+
+.download:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.2s ease-in;
+
+   }
+
+.watch:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.3s ease-in;
+
+   }
+
+
+}
+
+@media  (max-width: 568px) {
+
+
+.landing-text img {
+   height: auto;
+   width: 320px;
+
+}    
+.landing-text h1 {
+   font-size: 120%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.landing-text h3 {
+   font-size: 20%;
+   font-family: 'Domine', serif;  
+   color: white;
+
+}
+
+.download
+  { 
+   border: 2px solid white;
+   background-color: #526575;
+   padding: 6px 18px;
+   color: white;
+   text-decoration: none;
+   font-size: 12px;
+   border-radius:2px;
+   margin-right: 20px;
+
+  }
+
+.watch
+  { 
+   border: 2px solid #bec5cb;
+   background-color: none;
+   padding: 6px 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 12px;
+   border-radius:2px;
+
+  }
+
+.download:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.2s ease-in;
+
+   }
+
+.watch:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.3s ease-in;
+
+   }
+
+
+@media  (max-width: 368px) {
+
+
+.landing-text img {
+   height: auto;
+   width: 260px;
+
+}    
+.landing-text h1 {
+   font-size: 100%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+.landing-text h3 {
+   font-size: 0px;
+   font-family: 'Domine', serif;  
+   color: white;
+
+}
+
+
+.download
+  { 
+   border: 2px solid white;
+   background-color: #526575;
+   padding: 6px 18px;
+   color: white;
+   text-decoration: none;
+   font-size: 10px;
+   border-radius:2px;
+   margin-right: 20px;
+
+  }
+
+.watch
+  { 
+   border: 2px solid #bec5cb;
+   background-color: none;
+   padding: 6px 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 10px;
+   border-radius:2px;
+
+  }
+
+.download:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.2s ease-in;
+
+   }
+
+.watch:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.3s ease-in;
+
+   }
+
+}
+
+
