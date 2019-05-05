@@ -125,6 +125,71 @@ html, body
    }
 
 
+@media (min-width: 1920px) {
+
+
+.landing-text img {
+   height: auto;
+   width: 900px;
+
+}    
+.landing-text h1 {
+   font-size: 360%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+.landing-text h3 {
+   font-size: 220%;
+   font-family: 'Domine', serif;  
+   color: white;
+
+}
+
+.download
+  { 
+   border: 3px solid white;
+   background-color: #526575;
+   padding: 11px 25px;
+   color: white;
+   text-decoration: none;
+   font-size: 36px;
+   border-radius:4px;
+   margin-right: 35px;
+
+  }
+
+.watch
+  { 
+   border: 3px solid #bec5cb;
+   background-color: none;
+   padding: 11px 25px;
+   color: white;
+   text-decoration: none;
+   font-size: 36px;
+   border-radius:4px;
+
+  }
+
+.download:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.2s ease-in;
+
+   }
+
+.watch:hover
+ 
+  {
+   background-color: #172531;
+   transition: all 0.3s ease-in;
+
+   }
+
+
+}
+
 @media (max-width: 768px) {
 
 
