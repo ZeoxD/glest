@@ -83,6 +83,30 @@ html, body
 }
 
 
+@media (min-width: 1920px) {
+
+
+.landing-text img {
+   height: auto;
+   width: 900px;
+
+}    
+.landing-text h1 {
+   font-size: 360%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+.landing-text h3 {
+   font-size: 220%;
+   font-family: 'Domine', serif;  
+   color: white;
+
+}
+
+
+
+}
 
 
 @media (max-width: 768px) {
