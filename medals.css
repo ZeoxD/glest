@@ -1,0 +1,129 @@
+html, body
+{
+   height: 100%;
+   width: 100%;
+}
+
+body
+ {
+     background: linear-gradient(to  top, #2f4c65, #172531) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     width: 100%;
+     position: relative;
+     background-size: cover;
+
+}
+
+
+.navbar-inverse {
+    background-color: #172531 !important;
+    border-color: #526575!important;
+    font-size: 1.2em ;
+    font-weight: bold;
+    border-radius: 30px !important;  
+
+
+}
+
+.dropdown-menu {
+    background-color: #526575!important;
+
+ }
+.dropdown-menu a {
+    
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.1em;
+
+ }
+.dropdown-menu a:hover {
+    color: black !important;
+    
+
+ }
+
+.navbar-brand {
+  color: white !important;
+}
+
+
+
+
+.container {
+ 
+   width: 90%;
+}
+
+.container h1 {
+
+   font-size:50%;
+}
+
+.container h2 {
+
+   font-size: 280%;
+   color: #e0e9f0 !important;
+
+}
+
+.container h4 {
+
+   font-size:180%;
+
+}
+
+.container h4,li {
+
+   color: #e0e9f0 !important;
+
+}
+
+
+
+
+@media (max-width:768px) {
+
+.container h2 {
+
+   font-size:250%;
+
+}
+
+.container h4 {
+   color: white !important;
+   font-size:140%;
+
+}
+
+}
+
+
+
+
+@media (max-width:468px) {
+
+.container h2 {
+
+   font-size:180%;
+
+}
+
+.container h4 {
+   color: white !important;
+   font-size:130%;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+

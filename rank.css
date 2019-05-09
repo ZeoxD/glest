@@ -1,0 +1,149 @@
+html, body
+{
+   height: 100%;
+   width: 100%;
+}
+
+body
+ {
+     background: linear-gradient(to  top, #2f4c65, #172531) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     width: 100%;
+     position: relative;
+     background-size: cover;
+
+}
+
+
+.navbar-inverse {
+    background-color: #172531 !important;
+    border-color: #526575!important;
+    font-size: 1.2em ;
+    font-weight: bold;
+    border-radius: 30px !important;  
+
+
+}
+
+.dropdown-menu {
+    background-color: #526575 !important;
+
+ }
+.dropdown-menu a {
+    
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.1em;
+
+ }
+.dropdown-menu a:hover {
+    color: black !important;
+    
+
+ }
+
+.navbar-brand {
+  color: white !important;
+}
+
+
+
+
+.container {
+ 
+   width: 90%;
+}
+
+.container h1 {
+
+   font-size:50%;
+}
+
+.container h2 {
+
+   color: #efefef !important;
+
+}
+
+.container p {
+
+   color: #efefef !important;
+
+}
+
+
+
+tr:nth-child(odd) {
+   background-color: #2e3a45 !important;
+   color: white !important;
+  
+}
+
+tr.colora {
+   background-color: #172531 !important;
+   color: white !important;
+  
+}
+
+tr:nth-child(even) {
+   background-color: #3d4b57 !important;
+   color: white !important;
+  
+}
+
+
+td a {
+   color: gold !important ;
+   font-weight: bold;
+
+}
+
+th {
+   color: #edeff1;
+}
+
+.middle {
+   text-align: center;
+}
+
+
+
+@media (max-width:768px) {
+
+.container h3 {
+
+   font-size:220%;
+
+}
+
+
+
+}
+
+
+
+
+@media (max-width:468px) {
+
+.container h3 {
+
+   font-size:200%;
+
+}
+
+.table {
+   width:50%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
