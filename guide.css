@@ -81,7 +81,7 @@ html, body
 .landing-text h1 {
 
    font-size: 200%;
-   font-family: 'Play', serif;  
+   font-family: 'Play', serif !important;  
    color: #e0e9f0;
    font-weight: none;
    box-sizing: content-box;
