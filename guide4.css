@@ -121,7 +121,7 @@ html, body
 
 .landing-text li {
 
-   font-family: 'Poiret One', serif;  
+   font-family: 'Poiret One', serif !important;  
    color: #e0e9f0;
    font-size: 1.2em;
    font-weight: bold;
