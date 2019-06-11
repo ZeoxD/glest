@@ -84,7 +84,7 @@ html, body
 .strategy  {
 
    font-size: 200%;
-   font-family: 'Play', serif;  
+   font-family: 'Play', serif !important;  
    color: #e0e9f0;
 	border: solid 1px #0076a3;
 	background: #0095cd;
@@ -117,7 +117,7 @@ html, body
 .tips  {
 
    font-size: 200%;
-   font-family: 'Play', serif;  
+   font-family: 'Play', serif !important;  
    color: #e0e9f0;
 	border: solid 1px #0076a3;
 	background: #0095cd;
