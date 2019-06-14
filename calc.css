@@ -234,6 +234,22 @@ html, body
 
 }
 
+@media  (max-width: 458px) {
+    
+.landing-text h1 {
+   font-size: 160%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: absolute;
+   left: 17%;
+}
+
+}
+
 @media  (max-width: 398px) {
   
 .landing-text h1 {
