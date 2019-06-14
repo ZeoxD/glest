@@ -1,0 +1,157 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="glest,game,rts,3d,strategy,strategy guide,guide,multiplayer,battle,free,open,source,network,windows,linux,mac,download" />
+  <meta name="author" content="Zeo Tripathi" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+  <meta property="og:image" content="glest.png">
+
+<title>Glest 2.0</title>
+<link href="update1.css" rel="stylesheet" type="text/css" >
+<link rel="shortcut icon" href="glest.png" type="image/x-icon" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Domine|Play|Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+ 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            
+            <a class="navbar-brand" href="https://zeoxd.github.io/rtsglest.github.io/"><img src="glest.png">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="https://zeoxd.github.io/rtsglest.github.io/">HOME</a></li>
+               <li><a href="guide.html">GUIDE</a></li>
+               <li class="dropdown">
+                   <a class="active" class="dropdown-toggle" data-toggle="dropdown" href="#">UPDATES<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="update1.html">Game Data</a></li>
+                        <li><a href="update2.html">Maps</a></li>
+                        <li><a href="update3.html">Tilesets</a></li>
+                        <li><a href="update4.html">Factions</a></li>
+                        <li><a href="update5.html">Scenarios</a></li>
+                     </ul>
+               </li> 
+               <li><a href="http://master.staging.megaglest.org/next/players.php">RANKINGS</a></li>
+               <li><a href="https://glest.io/docs/tips_for_beginners.html">SUPPORT</a></li>
+               <li><a href="about.html">ABOUT</a></li> 
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+<div id="home">
+  
+    <div class="landing-text">
+
+        <h0> &nbsp; </h0>
+        <h1>Glest ChangeLog</h1>	
+        <div class="container-fluid">
+        <div class="margin">
+        <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                  <h2>Version 2.0 -</h2>
+                  <p> &nbsp; </p>
+                  <ul>
+                    <li>Added two new field types: "water" and "landwater"</li>
+                    <li>Added "float" attribute support for ships and floating units</li>
+                    <li>Added the Specialists faction</li>
+                    <li>Added a multitude of cool tilesets</li>
+                    <li>Now you can use shift to add and to remove from selected units (or use ctrl to unconditionally deselect)</li>
+                    <li>Now the Fog of War around a building being built clears out only after construction</li>
+                    <li>Now attack commands can be queued using the Shift key</li>
+                    <li>Renamed factions for consistency</li>
+                    <li>Now default command on right-click is customizable</li>
+                    <li>Middle mouse button now sends attack command, so you can micro-manage move and attack commands easily using right and middle mouse button</li>
+                    <li>Finally updated mod center mods</li>
+                    <li>Added horse archer to tech</li>
+                    <li>Moved default camera position to be slightly higher</li>
+                    <li>Added a lot of useful LUA functions, like setResourceMultiplier, setPlayerType, areCellsFree and forceSetUnitPosition</li>
+                    <li>Removed game fast-forward multiplier limit</li>
+                    <li>Added update notifier (can be disabled)</li>
+
+
+                  </ul>
+
+                  <p> &nbsp; </p>
+                  <h2>Version 1.0 -</h2>
+                  <p> &nbsp; </p>
+                  <ul>
+                    <li>The new logo is polished</li>
+                    <li>Buildings will now still be built even when units are in the way</li>
+                    <li>Special effects added to fading/vanishing corpses</li>
+                    <li>Zoom-out restriction during network play removed</li>
+                    <li>Maximum unit selection cap has been removed</li>
+                    <li>Size of attack and move icons increased</li>
+                    <li>Forest tilesets are more animated</li>
+                    <li>You can leave and re-join network games, even if you experience lag (buggy)</li>
+                    <li>Console now hidden by default on Windows</li>
+                    <li>Default command is changed to "attack" instead of "move", which is much more intuitive (pressing "a" not needed anymore); "m" key can be used for "move".</li>
+                    <li>Updated UI to look more modern</li>
+                    <li>Improved OOS detection, which also helps detect cheating.</li>
+                    <li>Transparency of the alpha component of textures can now be set</li>
+                    <li>Updated miniz library. Thanks to richgel999 and the miniz contributors.</li>
+                    <li>CMakeLists.txt files have had a major tune-up (doesn't affect Windows users)</li>
+                    <li>OpenBSD build instructions added and updated</li>
+                    <li>INSTALL.md document created</li>
+                    <li>man pages are no longer generated each time a build is performed. They must be manually generated when the help usage output is changed.</li>
+                    <li>Upgraded libircclient embedded library from 1.3 to 1.10</li>
+                    <li>Added support for Windows 10 SDK</li>
+                    <li>16 maps added</li>
+                    <li>[d1acd87]Lua can now be used in scripts tag in faction tag within XML</li>
+                    <li>[bugfix:835c6ef]Fixed "x" key getting stuck on Windows</li>
+                    <li>[045b0b8]Removed "MG_" and "xxx" (3 digit extension) on nicknames in lobby player list</li>
+                    <li>Windows build system, dependencies, and documentation updated</li>
+                    <li>Now allows cross-version network games if the data is the same.</li>
+                    <li>These units can now heal mobile units from their own factions that are in range: nurse (British, radius of 15), archmage_tower (Magic, radius of 8)</li>
+                    <li>Auto-healing radius changed from 8 to 15 (with the exception of Valhalla)</li>
+                    <li>Units standing near Valhalla (norse) are auto-healed (radius of 8)</li>
+                    <li>Supports importing units from other factions, such as by creating a folder named "fakir" in "tech" with a file "fakir.xml" with the following text: <b><i>&#x3c;?xml version="1.0" standalone="no"?&#62;&#x3c;unit&#62;&#x3c;link tech-tree="glestpack" faction="persian"/&#62;&#x3c;/unit&#62;</b></i></li>
+                    <li>These units can now heal mobile units from their own factions that are in range (radius of 8): priest (Egypt) wartime mechanic (Romans) minstrel (Elves) engineer (Greece) magician (Persia)</li>
+                    <li>Hotkey changes: M -> H (Show console/chat history) H -> T (Toggle team chat) T -> Z (Cycle between store units) M is now the hotkey for "move" when units are selected</li>
+                    <li>Replaced the sphinx with the scarab (Egypt's starting units)</li>
+                    <li>4 new tactical scenarios were added / Thanks @ Julie Marchant Witches' Hunt Native Unrest Warlock Overlords Death Road</li>
+                    <li>#13 Observers no longer take up slots on a map. For instance, a map being played by 4 players can have a 5th person observing; a map being played by 8 people can have a 9th person observing. Up to 10 people can connect, which mean you can have up to 6 observers with a 4-player map, and 2 with an 8-player map.</li>
+                    <li>#6 Players can now enter the multiplayer lobby unconditionally</li>
+                    <li>Replaced the Egypt graphics with Archmage's remaster: <a href="https://github.com/virtushda/EgyptRemaster">Egypt Remaster</a></li>
+                  </ul>
+
+                  <p> &nbsp; </p>
+
+
+                  <div class="increase-width">
+
+                  <p> &nbsp; </p>
+                  <p2>Information and graphics on this site are licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA license</a>. Some content is derived from the <a href="https://megaglest.org/">MegaGlest</a> project.</p2>
+                  </div>
+
+             </div>
+        </div>
+        </div>    
+        </div>
+    </div>   
+</div> 
+     
+
+    
+                   
+
+</body>
+</html>
