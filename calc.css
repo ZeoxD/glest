@@ -1,0 +1,377 @@
+html, body
+{
+   height: 100%;
+   width: 100%;
+}
+
+.navbar-inverse {
+    border-color: #6995b6 !important;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#172528), to(#172535));
+	background: -moz-linear-gradient(top,  #172528,  #172535);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#172528', endColorstr='#172535');
+    padding: 0%  0% 0% 0%;
+    font-size: 1em ;
+    font-weight: bold;
+    font-family: 'Poiret One', serif;     
+    
+}
+
+.dropdown-menu {
+    background-color: #526575 !important;
+
+ }
+.dropdown-menu a{
+
+    color: white !important;
+    font-weight: bold;
+
+
+ }
+
+.dropdown-menu a:hover {
+    color: black !important;
+    
+
+ }
+
+
+.navbar-brand img
+{
+    height: 36px;
+    padding: 0 0 15px;
+
+}
+
+
+.navbar-inverse .navbar-nav li a {
+   color: #e0e9f0 !important;
+
+}
+
+.navbar-inverse .navbar-nav li a.active {
+   
+   color: white !important;
+   font-size: 102%;
+
+}
+
+.navbar-inverse .navbar-nav li a:hover  {
+   color: black !important;
+
+}
+
+
+
+#home
+  {
+     background: linear-gradient(to top, #172530, #172533) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     width: 100%;
+     position: relative;
+     background-size: cover;
+
+}
+
+.landing-text {
+   display: table-cell;
+   text-align: center;
+   vertical-align: top;  
+}
+
+.landing-text h0 {
+   font-size: 300%;
+
+}
+
+.landing-text h1 {
+   font-size: 250%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.button {
+   width: 70;
+   height: 70;
+   font-size: 23px;
+   font-family: 'Poiret One', serif;  
+   font-weight: bold;
+   border-radius: 6px;	
+   color:#323232;
+   margin:2px;
+
+}
+.button-size {
+   width: 70;
+   height: 70;
+   font-size: 40px;
+   font-family: 'Poiret One', serif;  
+   font-weight: bold;
+   border-radius: 6px;
+   margin:2px;		
+}
+
+.textview {
+   width:280px;
+   margin:8px;
+   font-size:35px;
+   border-radius: 6px;
+   padding:1px;
+}
+
+.main {
+   position: fixed;
+   left: 39%;	
+}
+
+
+@media (max-width: 4080px) {
+  
+.landing-text h1 {
+   font-size: 350%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: fixed;
+   left: 46%;	
+}
+
+} 
+
+
+@media (max-width: 2720px) {
+  
+.landing-text h1 {
+   font-size: 320%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: fixed;
+   left: 43%;	
+}
+
+}
+
+
+@media (max-width: 2560px) {
+  
+.landing-text h1 {
+   font-size: 320%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: fixed;
+   left: 44%;	
+}
+
+}
+
+
+@media (max-width: 2060px) {
+  
+.landing-text h1 {
+   font-size: 280%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: fixed;
+   left: 42%;	
+}
+
+}
+
+
+@media (max-width: 1920px) {
+  
+.landing-text h1 {
+   font-size: 280%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: fixed;
+   left: 42%;	
+}
+
+}
+
+@media (max-width: 1440px) {
+  
+.landing-text h1 {
+   font-size: 280%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: fixed;
+   left: 39%;	
+}
+
+}
+
+
+@media (max-width: 1168px) {
+ 
+.landing-text h1 {
+   font-size: 245%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: absolute;
+   left: 35%;
+}
+
+}
+
+@media (max-width: 1068px) {
+ 
+.landing-text h1 {
+   font-size: 240%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: absolute;
+   left: 35%;
+}
+
+}
+
+@media (max-width: 968px) {
+ 
+.landing-text h1 {
+   font-size: 220%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: absolute;
+   left: 34%;
+}
+
+}
+
+@media (max-width: 888px) {
+ 
+.landing-text h1 {
+   font-size: 200%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: absolute;
+   left: 33%;
+}
+
+}
+
+
+@media (max-width: 768px) {
+ 
+.landing-text h1 {
+   font-size: 180%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: absolute;
+   left: 31%;
+}
+
+}
+
+@media  (max-width: 558px) {
+    
+.landing-text h1 {
+   font-size: 160%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: absolute;
+   left: 24%;
+}
+
+}
+
+@media  (max-width: 458px) {
+    
+.landing-text h1 {
+   font-size: 160%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.main {
+   position: absolute;
+   left: 17%;
+}
+
+}
+
+@media  (max-width: 398px) {
+  
+.landing-text h1 {
+   font-size: 150%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+
+}
+.main {
+   position: absolute;
+   left: 9%;
+}
+
+}
+
+
+@media  (max-width: 358px) {
+  
+.landing-text h1 {
+   font-size: 150%;
+   font-family: 'Poiret One', serif;  
+   color: white;
+   font-weight: bold;
+
+}
+.main {
+   position: absolute;
+   left: 4%;
+}
+
+}
+
+
