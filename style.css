@@ -160,7 +160,9 @@ html, body
 
 .circle
   { 
-   float: right;
+   position: absolute;
+   bottom: 20px;
+   right: -10px;
    border: 2px solid #64991e;
    padding: 15px 16px 11px 15px;
    font-family: 'Roboto', serif;
