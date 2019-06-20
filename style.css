@@ -164,7 +164,7 @@ html, body
    bottom: 20px;
    right: -10px;
    border: 2px solid #64991e;
-   padding: 15px 16px 11px 15px;
+   padding: 13px 14px 9px 13px;
    font-family: 'Roboto', serif;
    color: white;
    font-size: 28px;
@@ -438,7 +438,13 @@ html, body
    border-radius:2px;
 
   }
-
+.circle
+  { 
+   padding: 12px 13px 8px 12px;
+   font-size: 25px;
+   border-radius:50px;
+  }	
+}
 
 @media  (max-width: 338px) {
 
@@ -481,6 +487,12 @@ html, body
    font-size: 10px;
    border-radius:2px;
 
+  }
+.circle
+  { 
+   padding: 10px 11px 6px 10px;
+   font-size: 22px;
+   border-radius:50px;
   }
 
 	
