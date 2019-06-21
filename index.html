@@ -77,28 +77,21 @@
                             <button class="watch" onclick="window.location='https://youtu.be/Fafu0o8bQeo';" target="_blank">Watch Trailer</button>
 
                             <button type="button" class="circle" data-toggle="modal" data-target="#myModal"><i class="fab fa-discord"></i></button>
-
-                            <div class="modal fade" id="myModal" role="dialog">
-                              <div class="modal-dialog">
-                                 <div class="modal-content">
-                                 <div class="modal-header">
-                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                 <h4 class="modal-title">Discord Chat</h4>
-                                 </div>
-                                 <div class="modal-body">
-                                    <iframe src="https://titanembeds.com/embed/494547280368631818" height="450" width="550" frameborder="0"></iframe>
-                                 </div>
-                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
-                                 </div>
-                                 </div>      
-                              </div>
-                           </div>
   
                       </div>
 
     </div>    
-    
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3"></script>
+
+<script>
+  const button = new Crate({
+    server: '494547280368631818',
+    channel: '494547280368631820',
+    shard: 'https://disweb.deploys.io'
+  })
+
+  button.notify('Hello __Players__\n```js\nOur Glest Discord!\n```')
+</script>       
     
 </div>  
   
