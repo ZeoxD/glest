@@ -188,6 +188,13 @@ html, body
    padding: 6px;
 
 }
+   
+.margin {
+   text-align: left;
+   margin: 0 10%;
+   width:80%;
+  
+}
 
 }
 
