@@ -95,7 +95,7 @@ html, body
 
 .margin {
    text-align: left;
-   margin: 0 15%;
+   margin: 0 10%;
    width:80%;
   
 }
@@ -125,6 +125,7 @@ html, body
    font-family: 'Roboto', serif;  
    color: #efefef;
    font-weight: none;
+   line-height: 23px;
 
 }
 
