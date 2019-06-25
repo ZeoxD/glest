@@ -50,7 +50,8 @@ html, body
 }
 
 .navbar-inverse .navbar-nav li a:hover  {
-   color: black;
+   color: white !important;
+   background-color: #111 !important;
 
 }
 
