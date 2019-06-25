@@ -14,18 +14,20 @@ html, body
 }
 
 .dropdown-menu {
-    background-color: #526575 !important;
+    background-color: #273f54 !important;
 
  }
 .dropdown-menu a{
 
     color: white !important;
-
+    font-size: 1.1em;
+    font-family: 'Roboto', serif;
+    margin: 10px 0;
+    
  }
 
 .dropdown-menu a:hover {
-    color: black !important;
-    
+    color: white !important;
 
  }
 
