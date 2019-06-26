@@ -393,7 +393,22 @@ html, body
   }
 	
 }
+	
+@media  (max-width: 512px) {
+#home
+  {
+     background:url(backs.jpg) no-repeat center center fixed;
+     display: table;
+     height: 200%;
+     width: 100%;
+     position: relative;
+     background-size: cover;
 
+}
+	
+}
+	
+	
 @media  (max-width: 338px) {
 
 
