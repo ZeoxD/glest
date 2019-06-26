@@ -160,6 +160,12 @@ html, body
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e3a45', endColorstr='#14212c');
    }
 
+.audio { 
+       display: none;
+        
+} 
+
+}
 
 @media (min-width: 1920px) {
 
@@ -202,12 +208,7 @@ html, body
    border-radius:4px;
 
   }
-.audio { 
-       display: none;
-        
-} 
 
-}
 
 @media (max-height: 568px) {
  
