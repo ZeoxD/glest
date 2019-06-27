@@ -2,6 +2,7 @@ html, body
 {
    height: 100%;
    width: 100%;
+   overflow-x: hidden;
 }
 
 .navbar-inverse {
@@ -84,6 +85,12 @@ html, body
    font-weight: bold;
 }
 
+.svg {
+  
+   height:45;
+   width: 1300;
+}
+
 
 
 @media (min-width: 1920px) {
@@ -98,6 +105,88 @@ html, body
 }
 
 
+@media (max-width: 1368px) {
+ 
+.landing-text h1 {
+   font-size: 30%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.svg {
+    height:45;
+    width: 1100;
+}
+
+}
+
+@media (max-width: 1268px) {
+ 
+.landing-text h1 {
+   font-size: 30%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.svg {
+    height:45;
+    width: 1000;
+}
+
+}
+
+@media (max-width: 1068px) {
+ 
+.landing-text h1 {
+   font-size: 30%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.svg {
+    height:45;
+    width: 950;
+}
+
+}
+
+@media (max-width: 968px) {
+ 
+.landing-text h1 {
+   font-size: 30%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.svg {
+    height:45;
+    width: 900;
+}
+
+}
+
+
+@media (max-width: 868px) {
+ 
+.landing-text h1 {
+   font-size: 30%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+.svg {
+    height:45;
+    width: 800;
+}
+
+}
+
+
 @media (max-width: 768px) {
  
 .landing-text h1 {
@@ -105,6 +194,11 @@ html, body
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
+}
+
+.svg {
+    height:45;
+    width: 700;
 }
 
 }
@@ -118,10 +212,42 @@ html, body
    font-weight: bold;
 }
 
+.svg {
+    height:45;
+    width: 500;
+}
 
 }
 
+@media  (max-width: 438px) {
+  
+.landing-text h1 {
+   font-size: 10%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+.svg {
+    height:45;
+    width: 400;
+}
 
+}
+
+@media  (max-width: 378px) {
+  
+.landing-text h1 {
+   font-size: 10%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+.svg {
+    height:45;
+    width: 350;
+}
+
+}
 
 @media  (max-width: 338px) {
   
@@ -131,7 +257,10 @@ html, body
    color: white;
    font-weight: bold;
 }
-s
+.svg {
+    height:45;
+    width: 300;
 }
 
+}
 
