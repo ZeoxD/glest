@@ -108,8 +108,7 @@ html, body
 }
 
 
-
-@media (max-width: 1320px) {
+@media (max-width: 1368px) {
  
 .landing-text h1 {
    font-size: 130%;
@@ -120,7 +119,7 @@ html, body
 
 .svg {
     height:45;
-    width: 1280;
+    width: 1300;
 }
 
 }
