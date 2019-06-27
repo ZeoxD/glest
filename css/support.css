@@ -101,6 +101,10 @@ html, body
    color: white;
    font-weight: bold;
 }
+.svg {
+    height:45;
+    width: 1500;
+}   
 
 }
 
