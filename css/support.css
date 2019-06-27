@@ -96,7 +96,7 @@ html, body
 @media (min-width: 1920px) {
   
 .landing-text h1 {
-   font-size: 60%;
+   font-size: 160%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -108,7 +108,7 @@ html, body
 @media (max-width: 1368px) {
  
 .landing-text h1 {
-   font-size: 30%;
+   font-size: 130%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -124,7 +124,7 @@ html, body
 @media (max-width: 1268px) {
  
 .landing-text h1 {
-   font-size: 30%;
+   font-size: 130%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -140,7 +140,7 @@ html, body
 @media (max-width: 1068px) {
  
 .landing-text h1 {
-   font-size: 30%;
+   font-size: 110%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -156,7 +156,7 @@ html, body
 @media (max-width: 968px) {
  
 .landing-text h1 {
-   font-size: 30%;
+   font-size: 105%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -173,7 +173,7 @@ html, body
 @media (max-width: 868px) {
  
 .landing-text h1 {
-   font-size: 30%;
+   font-size: 105%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -190,7 +190,7 @@ html, body
 @media (max-width: 768px) {
  
 .landing-text h1 {
-   font-size: 30%;
+   font-size: 100%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -206,7 +206,7 @@ html, body
 @media  (max-width: 558px) {
     
 .landing-text h1 {
-   font-size: 20%;
+   font-size: 90%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -222,7 +222,7 @@ html, body
 @media  (max-width: 438px) {
   
 .landing-text h1 {
-   font-size: 10%;
+   font-size: 85%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -237,7 +237,7 @@ html, body
 @media  (max-width: 378px) {
   
 .landing-text h1 {
-   font-size: 10%;
+   font-size: 80%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
@@ -252,7 +252,7 @@ html, body
 @media  (max-width: 338px) {
   
 .landing-text h1 {
-   font-size: 10%;
+   font-size: 80%;
    font-family: 'Domine', serif;  
    color: white;
    font-weight: bold;
