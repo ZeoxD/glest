@@ -61,7 +61,7 @@ html, body
 
 #home
   {
-     background:url(backs.jpg) no-repeat center center fixed;
+     background:url(../backs.jpg) no-repeat center center fixed;
      display: table;
      height: 100%;
      width: 100%;
