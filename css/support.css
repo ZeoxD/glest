@@ -88,23 +88,9 @@ html, body
 .svg {
   
    height:45;
-   width: 1300;
+   width: 1330;
 }
 
-@media (min-width: 1420px) {
-  
-.landing-text h1 {
-   font-size: 160%;
-   font-family: 'Domine', serif;  
-   color: white;
-   font-weight: bold;
-}
-.svg {
-    height:45;
-    width: 1300;
-}   
-
-}
 
 @media (min-width: 1920px) {
   
@@ -122,7 +108,8 @@ html, body
 }
 
 
-@media (max-width: 1368px) {
+
+@media (max-width: 1320px) {
  
 .landing-text h1 {
    font-size: 130%;
@@ -133,7 +120,7 @@ html, body
 
 .svg {
     height:45;
-    width: 1100;
+    width: 1280;
 }
 
 }
