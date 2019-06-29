@@ -1,0 +1,136 @@
+html, body
+{
+   height: 100%;
+   width: 100%;
+}
+
+.navbar-inverse {
+    background-color: #172531 !important;
+    border-color: #526575!important;
+    padding: 0%  0% 0% 0%;
+    font-size: 1em ;
+    font-weight: bold;
+    
+}
+
+.dropdown-menu {
+    background-color: #273f54 !important;
+
+ }
+.dropdown-menu a{
+
+    color: white !important;
+    font-size: 1.1em;
+    font-family: 'Roboto', serif;
+    margin: 10px 0;
+    
+ }
+
+.dropdown-menu a:hover {
+    color: white !important;
+
+ }
+
+
+.navbar-brand img
+{
+    height: 36px;
+    padding: 0 0 15px;
+
+}
+
+
+.navbar-inverse .navbar-nav li a {
+   color: white;
+
+}
+
+.navbar-inverse .navbar-nav li a.active {
+   
+   color: white;
+
+}
+
+.navbar-inverse .navbar-nav li a:hover  {
+   color: white !important;
+   background-color: #111 !important;
+}
+
+
+
+#home
+  {
+     background: linear-gradient(to top, #172530, #172533) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     width: 100%;
+     position: relative;
+     background-size: cover;
+
+}
+
+.landing-text {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;  
+}
+
+
+.landing-text h1 {
+   font-size: 50%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+
+
+@media (min-width: 1920px) {
+  
+.landing-text h1 {
+   font-size: 60%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+}
+
+
+@media (max-width: 768px) {
+ 
+.landing-text h1 {
+   font-size: 30%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+}
+
+@media  (max-width: 558px) {
+    
+.landing-text h1 {
+   font-size: 20%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+
+
+}
+
+
+
+@media  (max-width: 338px) {
+  
+.landing-text h1 {
+   font-size: 10%;
+   font-family: 'Domine', serif;  
+   color: white;
+   font-weight: bold;
+}
+s
+}
+
+
