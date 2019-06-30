@@ -178,10 +178,7 @@ html, body
 
 @media (max-width: 1028px) {
 
-.landing-text {
-   display: flex;
-}
- 
+
 .landing-text h1 {
    font-size: 190%;
    font-family: 'Roboto', serif;  
