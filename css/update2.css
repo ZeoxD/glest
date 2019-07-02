@@ -72,21 +72,13 @@ html, body
 
 .landing-text {
    display: table-cell;
-   text-align: center;
-   border-right: 1px solid #526575;
-   border-left: 1px solid #526575;
-   border-bottom: 1px solid #526575;
-
- 
+   text-align: center; 
 }
 
 
 .landing-text-a {
    display: table-cell;
-   text-align: center;
-   border-right: 1px solid #526575;
-   border-bottom: 1px solid #526575;
- 
+   text-align: center; 
 } 
 
 
@@ -94,18 +86,19 @@ html, body
    font-size: 200%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 70px;
-   border-bottom: 1px solid #526575;
+   margin-top: 90px;
    padding-bottom: 20px;
+
 
 }
 .landing-text-a h1 {
    font-size: 200%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 70px;
-   border-bottom: 1px solid #526575;
+   margin-top: 90px;
    padding-bottom: 20px;
+
+
    
 }
 
@@ -133,7 +126,7 @@ html, body
    font-weight: none;
    box-sizing: content-box;
    padding: 8px;
-   width: 70%;
+   width: 470px;
    margin-left: 1%;
 
 }
@@ -159,8 +152,7 @@ html, body
    font-size: 220%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 70px;
-   border-bottom: 1px solid #526575;
+   margin-top: 90px;
    padding-bottom: 20px;
 
 }
@@ -168,8 +160,7 @@ html, body
    font-size: 220%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 70px;
-   border-bottom: 1px solid #526575;
+   margin-top: 90px;
    padding-bottom: 20px;
    
 }
@@ -179,12 +170,12 @@ html, body
 @media (max-width: 1028px) {
 
 
+ 
 .landing-text h1 {
    font-size: 190%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 70px;
-   border-bottom: 1px solid #526575;
+   margin-top: 90px;
    padding-bottom: 20px;
 
 }
@@ -192,23 +183,74 @@ html, body
    font-size: 190%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 70px;
-   border-bottom: 1px solid #526575;
+   margin-top: 90px;
    padding-bottom: 20px;
    
+}
+
+.landing-text img{
+   width: 400px;
+   height: 304px; 
+}
+
+.landing-text-a img{
+   width: 400px;
+   height: 304px;  
+}
+
+.button-official  {
+   width: 370px;
+}
+
+@media (max-width: 868px) {
+
+
+ 
+.landing-text h1 {
+   font-size: 190%;
+   font-family: 'Roboto', serif;  
+   color: white;
+   margin-top: 90px;
+   padding-bottom: 20px;
+
+}
+.landing-text-a h1 {
+   font-size: 190%;
+   font-family: 'Roboto', serif;  
+   color: white;
+   margin-top: 90px;
+   padding-bottom: 20px;
+   
+}
+
+.landing-text img{
+   width: 350px;
+   height: 266px; 
+}
+
+.landing-text-a img{
+   width: 350px;
+   height: 266px;  
+}
+
+.button-official  {
+   width: 320px;
 }
 
 
 @media (max-width: 768px) {
 
+.landing-text, .landing-text-a {
+   display: flex;
+   flex-direction: column;
+}
 
  
 .landing-text h1 {
    font-size: 180%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 70px;
-   border-bottom: 1px solid #526575;
+   margin-top: 90px;
    padding-bottom: 20px;
 
 }
@@ -216,12 +258,17 @@ html, body
    font-size: 180%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 70px;
-   border-bottom: 1px solid #526575;
+   margin-top: 90px;
    padding-bottom: 20px;
+   border-top: 2px solid #526575;
+   padding-top: 35px;
    
 }
 
+.landing-text-a button {
+   margin-bottom: 30px;
+
+}
 }
 
 @media  (max-width: 558px) {
@@ -230,46 +277,93 @@ html, body
    font-size: 170%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 12%;
-   border-bottom: 1px solid #526575;
-   padding-bottom: 25px;
+   margin-top: 90px;
+   padding-bottom: 20px;
 
 }
 .landing-text-a h1 {
    font-size: 170%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 12%;
-   border-bottom: 1px solid #526575;
-   padding-bottom: 25px;
+   margin-top: 90px;
+   padding-bottom: 20px;
    
 }
 
-
 }
 
 
 
-@media  (max-width: 338px) {
+@media  (max-width: 398px) {
   
 .landing-text h1 {
    font-size: 160%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 12%;
-   border-bottom: 1px solid #526575;
-   padding-bottom: 25px;
+   margin-top: 90px;
+   padding-bottom: 20px;
 
 }
 .landing-text-a h1 {
    font-size: 160%;
    font-family: 'Roboto', serif;  
    color: white;
-   margin-top: 12%;
-   border-bottom: 1px solid #526575;
-   padding-bottom: 25px;
+   margin-top: 90px
+   padding-bottom: 20px;
    
 }
+
+.landing-text img{
+   width: 280px;
+   height: 213px; 
+}
+
+.landing-text-a img{
+   width: 280px;
+   height: 213px;  
+}
+
+.button-official  {
+   width: 260px;
+   font-size: 150%;
+}
+
+}
+
+@media  (max-width: 338px) {
+  
+.landing-text h1 {
+   font-size: 155%;
+   font-family: 'Roboto', serif;  
+   color: white;
+   margin-top: 90px;
+   padding-bottom: 20px;
+
+}
+.landing-text-a h1 {
+   font-size: 155%;
+   font-family: 'Roboto', serif;  
+   color: white;
+   margin-top: 90px
+   padding-bottom: 20px;
+   
+}
+
+.landing-text img{
+   width: 230px;
+   height: 175px; 
+}
+
+.landing-text-a img{
+   width: 230px;
+   height: 175px;  
+}
+
+.button-official  {
+   width: 210px;
+   font-size: 140%;
+}
+
 }
 
 
