@@ -144,6 +144,23 @@ html, body
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
 }
 
+::-webkit-scrollbar
+{
+   width: 10;
+   background-color: #1f3241;
+}
+
+::-webkit-scrollbar-thumb
+{
+   border-radius: 20px;
+   background: linear-gradient(to right, #060a0e, #0f181f);
+}
+
+::-webkit-scrollbar-track
+{
+   border-radius: 1px;
+   background-color: #1f3241;
+}
 
 
 @media (min-width: 1920px) {
