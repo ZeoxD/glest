@@ -286,6 +286,24 @@ html, body
    margin-bottom: 30px;
 
 }
+::-webkit-scrollbar
+{
+   width: 10;
+   background-color: #1f3241;
+}
+
+::-webkit-scrollbar-thumb
+{
+   border-radius: 20px;
+   background: linear-gradient(to right, #060a0e, #0f181f);
+}
+
+::-webkit-scrollbar-track
+{
+   border-radius: 1px;
+   background-color: #1f3241;
+}	
+	
 }
 
 @media  (max-width: 558px) {
