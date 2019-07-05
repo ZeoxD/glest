@@ -124,6 +124,7 @@ html, body
 	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
    font-weight: none;
+   border-radius: 40px;
    box-sizing: content-box;
    padding: 8px;
    width: 470px;
