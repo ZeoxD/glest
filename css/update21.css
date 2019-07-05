@@ -283,22 +283,21 @@ html, body
    font-family: 'Roboto', serif;  
    color: white;
    margin-top: 90px;
-   padding-bottom: 20px;   
+   padding-bottom: 20px;
 }
 
-.span{
-   color: #e58104;
-   font-size:1.1em;
+.span-heading {
+   font-size: 14px;
+} 
+
+
 }
 
-}   
-   
 @media  (max-width: 448px) {
-    
-.span{
-   color: #e58104;
-   font-size:1em;
-}
+
+.span-heading {
+   font-size: 12px;
+} 
 
 }
 
@@ -333,6 +332,10 @@ html, body
    height: auto; 
 }
 
+.span-heading {
+   font-size: 10px;
+} 
+
 }
 
 @media  (max-width: 338px) {
@@ -364,6 +367,9 @@ html, body
    height: auto;  
 }
 
-}
+.span-heading {
+   font-size: 09px;
+} 
 
+}
 
