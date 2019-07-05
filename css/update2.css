@@ -88,24 +88,19 @@ html, body
    color: white;
    margin-top: 90px;
    padding-bottom: 20px;
-   border-bottom: 11px solid #526575;
-   border-radius: 30px;
-
-
 }
 .landing-text-a h1 {
    font-size: 200%;
    font-family: 'Roboto', serif;  
    color: white;
    margin-top: 90px;
-   padding-bottom: 20px;
-   border-bottom: 11px solid #526575;
-   border-radius: 30px;
-
-
-   
+   padding-bottom: 20px;   
 }
 
+.span {
+   border-bottom: 11px solid #526575;
+   border-radius: 30px;	
+}	
 
 .landing-text img{
    width: 500px;
