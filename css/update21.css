@@ -283,8 +283,21 @@ html, body
    font-family: 'Roboto', serif;  
    color: white;
    margin-top: 90px;
-   padding-bottom: 20px;
+   padding-bottom: 20px;   
+}
+
+.span{
+   color: #e58104;
+   font-size:1.1em;
+}
+
+}   
    
+@media  (max-width: 448px) {
+    
+.span{
+   color: #e58104;
+   font-size:1em;
 }
 
 }
@@ -320,8 +333,6 @@ html, body
    height: auto; 
 }
 
-
-
 }
 
 @media  (max-width: 338px) {
@@ -352,7 +363,6 @@ html, body
    width: 230px;
    height: auto;  
 }
-
 
 }
 
