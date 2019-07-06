@@ -227,9 +227,7 @@ html, body
 
 }
 
-
-
-@media  (max-width: 338px) {
+@media  (max-width: 398px) {
   
 .landing-text h1 {
 
@@ -239,6 +237,23 @@ html, body
    margin-left: 4%;
 
 }
+
+
+}
+
+
+
+@media  (max-width: 338px) {
+  
+.landing-text h1 {
+
+   font-size: 115%;
+   padding: 6px;
+   width: 85%;
+   margin-left: 4%;
+
+}
+  
 
 }
 
