@@ -88,12 +88,14 @@ html, body
    color: #e0e9f0;
    font-weight: none;
    box-sizing: content-box;
-   border-bottom: solid #b3bac0 2px;
    padding: 8px;
-   width: 92%;
    margin-left: 3%;
+}
 
-
+.span {
+   border-bottom: 9px solid #526575;
+   border-radius: 30px;	
+   padding-bottom: 15px;
 }
 
 .margin {
