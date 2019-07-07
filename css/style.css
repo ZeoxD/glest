@@ -192,7 +192,6 @@ html, body
    padding: 7px 22px;
    color: white;
    font-size: 36px;
-   border-radius:4px;
    margin-right: 35px;
 
   }
@@ -203,7 +202,6 @@ html, body
    padding: 7px 22px;
    color: white;
    font-size: 36px;
-   border-radius:4px;
 
   }
 }
@@ -234,22 +232,18 @@ html, body
 
 .download
   { 
-   border: 2px solid #515f6c;
    padding: 6px 18px;
    color: white;
    font-size: 16px;
-   border-radius:2px;
    margin-right: 25px;
 
   }
 
 .watch
   { 
-   border: 2px solid #515f6c;
    padding: 6px 15px;
    color: white;
    font-size: 16px;
-   border-radius:2px;
 
   }
 
@@ -281,22 +275,18 @@ html, body
 }
 .download
   { 
-   border: 2px solid #515f6c;
    padding: 6px 18px;
    color: white;
    font-size: 14px;
-   border-radius:2px;
    margin-right: 25px;
 
   }
 
 .watch
   { 
-   border: 2px solid #515f6c;
    padding: 6px 15px;
    color: white;
    font-size: 14px;
-   border-radius:2px;
 
   }
 
@@ -326,22 +316,18 @@ html, body
 
 .download
   { 
-   border: 2px solid #515f6c;
    padding: 6px 18px;
    color: white;
    font-size: 16px;
-   border-radius:2px;
    margin-right: 25px;
 
   }
 
 .watch
   { 
-   border: 2px solid #515f6c;
    padding: 6px 15px;
    color: white;
    font-size: 16px;
-   border-radius:2px;
 
   }
 
@@ -373,22 +359,18 @@ html, body
 
 .download
   { 
-   border: 2px solid #515f6c;
    padding: 6px 18px;
    color: white;
    font-size: 12px;
-   border-radius:2px;
    margin-right: 20px;
 
   }
 
 .watch
   { 
-   border: 2px solid #515f6c;
    padding: 6px 15px;
    color: white;
    font-size: 12px;
-   border-radius:2px;
 
   }
 	
@@ -419,22 +401,18 @@ html, body
 
 .download
   { 
-   border: 2px solid #515f6c;
    padding: 6px 18px;
    color: white;
    font-size: 10px;
-   border-radius:2px;
    margin-right: 20px;
 
   }
 
 .watch
   { 
-   border: 2px solid #515f6c;
    padding: 6px 15px;
    color: white;
    font-size: 10px;
-   border-radius:2px;
 
   }
 	
