@@ -122,7 +122,7 @@ html, body
   { 
    border: 2px solid #515f6c;
    background-color: transparent;
-   padding: 9px 35px 9px 30px;
+   padding: 9px 35px 8px 30px;
    font-family: 'Poiret One', serif;
    font-weight: bold;
    color: white;
@@ -153,7 +153,7 @@ html, body
 .watch:hover
  
   {
-   background-color: #172531;
+   background: linear-gradient(to top, #436c8e, #2a4359);
    transition: all 0.3s ease-in;
 
    }
