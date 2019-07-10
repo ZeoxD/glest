@@ -103,14 +103,16 @@ html, body
 
 .download
   { 
+   cursor: pointer;
    border: 2px solid #515f6c;
-   padding: 10px 30px 8px 26px;
+   padding: 13px 30px 11px 26px;
    font-family: 'Poiret One', serif;
    font-weight: bold;
    color: white;
    font-size: 19px;
    border-radius:30px;
    margin-right: 30px;
+   text-decoration: none;
 	background: #0095cd;
 	background: -webkit-gradient(linear, left top, left bottom, from(#172531), to(#5b8bb4));
 	background: -moz-linear-gradient(top,  #172531,  #5b8bb4);
@@ -120,10 +122,12 @@ html, body
 
 .watch
   { 
+   cursor: pointer;
    border: 2px solid #515f6c;
    background-color: transparent;
-   padding: 9px 35px 8px 30px;
+   padding: 12px 35px 11px 30px;
    font-family: 'Poiret One', serif;
+   text-decoration: none;
    font-weight: bold;
    color: white;
    font-size: 19px;
@@ -134,6 +138,8 @@ html, body
 .download:hover
  
   {
+        text-decoration: none;
+        color: #fff;
 	background: -webkit-gradient(linear, left top, left bottom, from(#304f6a), to(#6995bb));
 	background: -moz-linear-gradient(top,  #304f6a,  #6995bb);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#304f6a', endColorstr='#6995bb');
@@ -153,12 +159,15 @@ html, body
 .watch:hover
  
   {
+   text-decoration: none;
+   color: #fff;
    background: #111b24;
    transition: all 0.3s ease-in;
 
    }
 .watch:active
   {
+	transform: translateY(1px);
 	background: -webkit-gradient(linear, left top, left bottom, from(#2e3a45), to(#14212c));
 	background: -moz-linear-gradient(top,  #2e3a45,  #14212c);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e3a45', endColorstr='#14212c');
