@@ -326,7 +326,7 @@ html, body
 
 .download
   { 
-   padding: 6px 18px;
+   padding: 9px 18px;
    color: white;
    font-size: 16px;
    margin-right: 25px;
@@ -335,7 +335,7 @@ html, body
 
 .watch
   { 
-   padding: 6px 15px;
+   padding: 9px 15px;
    color: white;
    font-size: 16px;
 
@@ -369,7 +369,7 @@ html, body
 
 .download
   { 
-   padding: 6px 18px;
+   padding: 8px 18px;
    color: white;
    font-size: 12px;
    margin-right: 20px;
@@ -378,7 +378,7 @@ html, body
 
 .watch
   { 
-   padding: 6px 15px;
+   padding: 8px 15px;
    color: white;
    font-size: 12px;
 
@@ -411,18 +411,20 @@ html, body
 
 .download
   { 
-   padding: 6px 18px;
+   padding: 9px 18px;
    color: white;
    font-size: 10px;
    margin-right: 20px;
+   border: 1px solid #515f6c;
 
   }
 
 .watch
   { 
-   padding: 6px 15px;
+   padding: 8px 15px;
    color: white;
    font-size: 10px;
+   border: 1px solid #515f6c;
 
   }
 	
