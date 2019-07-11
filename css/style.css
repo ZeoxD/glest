@@ -369,10 +369,12 @@ html, body
 
 .download
   { 
-   padding: 8px 18px;
+   padding: 9px 18px;
    color: white;
    font-size: 12px;
    margin-right: 20px;
+   border: 1px solid #515f6c;
+
 
   }
 
@@ -381,6 +383,8 @@ html, body
    padding: 8px 15px;
    color: white;
    font-size: 12px;
+   border: 1px solid #515f6c;
+
 
   }
 	
