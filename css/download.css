@@ -55,7 +55,8 @@ html, body
 
 .container-1 h1, .container-3 h1 {
     color: #e0e9f0;
-    font-size:2.3em;    
+    font-size:2.3em;  
+    font-family: 'Poiret One', serif; 
 
 }
 
@@ -64,7 +65,7 @@ html, body
     text-align: center;
     color: #e0e9f0;
     font-size:1.3em;    
-
+    font-family: 'Poiret One', serif; 
 }
 
 .box-21 {
