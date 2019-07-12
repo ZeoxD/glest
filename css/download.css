@@ -17,76 +17,63 @@ html, body
 }
 
 
-.landing-text, .landing-text-a {
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-}
-
-.landing-text h1 {
-  
-   margin-top: 90px;
-   padding-bottom: 20px;
-   padding-top: 40px;
-
+.container-1 div {
+     margin-top: 33px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
 
 }
-.landing-text-a h1 {
-  
-   margin-top: 35px;
-   padding-bottom: 10px;
-   border-top: 1px solid #526575;
-   padding-top: 110px;
-  
+
+.container-2 div, .container-3 div, .container-4 div  {
+     margin-top: 33px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+
 }
 
-.landing-text h3 {
-   font-size: 100%;
-   font-family: 'Roboto', serif;  
-   color: white;
+.container-4 div  {
+     margin-bottom: 12px;
 
-  
 }
 
-.landing-text-a h3 {
-   font-size: 100%;
-   font-family: 'Roboto', serif;  
-   color: white;
+.box-1,.box-2,.box-3,.box-4 {
 
-  
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.box-11, .box-31 {
+
+     padding:15px 0;
+}
+
+.container-1 h1, .container-3 h1 {
+    color: #e0e9f0;
+    font-size:2.3em;    
+
+}
+
+.container-2 h3, .container-4 h3 {
+    margin: 20px auto;
+    text-align: center;
+    color: #e0e9f0;
+    font-size:1.3em;    
+
 }
 
 .span{
    color: #e58104;
-   font-size:1.2em;
 }
 
-.span-heading-windows {
-   font-family: 'Roboto', serif; 
-   position: relative;
-   float: left;
-   left: 330px;
-   color: #e0e9f0;
-   font-size: 1.1em;
-   padding-bottom: 12px;
-   letter-spacing: 5px;
-}
 
-.span-heading-linux {
-   font-family: 'Roboto', serif; 
-   position: relative;
-   float: left;	
-   left: 370px;
-   color: #e0e9f0;
-   font-size: 1.1em;
-   padding-bottom: 12px;
-   letter-spacing: 5px;
-}
 
 .download-windows {
-	position: relative;
-	top: calc(0px - 92px);
-	right: calc(0px - 725px);
 	width: 230px;
 	height: 60px;
 	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.075), rgba(255,255,255,.045));
@@ -102,48 +89,56 @@ html, body
 }
 
 .download-windows:before, .download-windows:after {
-	position: absolute;
+        position: relative;
 	top: 0px;
-	left: 0px;
+	left: 0px; 
 	width: 100%;
 	height: 100%;
 	opacity: 1;
 	transition: all .3s cubic-bezier(.67,.13,.1,.81);
 }
 .download-windows:before {
+        font-size: 1.1em;
 	content: 'DOWNLOAD';
         font-family: 'Poiret One', serif; 
         font-weight: bold;
-        left: 16px;
+        left: 71px;
+        top: -28px;
+        text-decoration: none;
 }
 .download-windows:after {
+        font-size: 1.1em;
 	content: 'DOWNLOAD';
         font-family: 'Poiret One', serif; 
         font-weight: bold;
-        left: 16px;
-	top: -60px;
+        left: -52px;
+	top: -120px;
 	opacity: 0;
+        text-decoration: none; 
 }
 .download-windows:hover {
-	right: calc(0px - 725px);
 	width: 230px;
         color: #0dffff;        
 }
 .download-windows:hover:before {
 	top: 60px;
 	opacity: 0;
+        text-decoration: none; 
 }
 .download-windows:hover:after {
-	top: 0px;
+	top: -28px;
+        left: -53px;
 	opacity: 1;
+        text-decoration: none;
 }
 .download-windows:active {
+        text-decoration: none;
 	transform: translateY(3px);
 }
 
 
 .download-linux {
-	position: relative;
+
 	top: calc(0px - 82px);
 	right: calc(0px - 725px);
 	width: 230px;
@@ -157,57 +152,66 @@ html, body
 	text-align: center;
 	letter-spacing: 5px;
 	overflow: hidden;
+        text-decoration: none;
 	transition: all .3s cubic-bezier(.67,.13,.1,.81), transform .3s cubic-bezier(.67,.13,.1,.81);
 }
 
 .download-linux:before, .download-linux:after {
-	position: absolute;
+        position: relative;
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	height: 100%;
 	opacity: 1;
+        text-decoration: none;
 	transition: all .3s cubic-bezier(.67,.13,.1,.81);
 }
 .download-linux:before {
+        font-size: 1.1em;
 	content: 'DOWNLOAD';
         font-family: 'Poiret One', serif;
         font-weight: bold;
-        left: 16px;
+        left: 71px;
+        top: -28px;
+        text-decoration: none;
 }
 .download-linux:after {
+        font-size: 1.1em;
 	content: 'DOWNLOAD';
         font-family: 'Poiret One', serif;
         font-weight: bold;
-        left: 16px;
-	top: -60px;
+        left: -52px;
+	top: -120px;
 	opacity: 0;
+        text-decoration: none; 
 }
 .download-linux:hover {
-	right: calc(0px - 725px);
 	width: 230px;
         color: #0dffff;        
 }
 .download-linux:hover:before {
 	top: 60px;
 	opacity: 0;
+        text-decoration: none;         
 }
 .download-linux:hover:after {
-	top: 0px;
+	top: -28px;
+        left: -53px;
 	opacity: 1;
+        text-decoration: none;
 }
 .download-linux:active {
-	transform: translateY(3px);
+        text-decoration: none;
+	transform: translateY(3px); 
 }
+
 .fa {
-        position: relative;
-        float: left;
-        left: 32px;
-        top: 16px;
-        transition: 0.28s ease-in;
+   position: relative;
+   float: left;
+   left: 31px;
+   top: 16px;
 }
-
-
+ 
 
 ::-webkit-scrollbar
 {
@@ -228,272 +232,31 @@ html, body
 }
 
 
-
 @media (min-width: 1920px) {
-  
-.landing-text h1 {
-   font-size: 220%;
-   font-family: 'Roboto', serif;  
-   color: white;
-   margin-top: 90px;
-   padding-bottom: 20px;
 
-}
-.landing-text-a h1 {
-   font-size: 220%;
-   font-family: 'Roboto', serif;  
-   color: white;
-   margin-top: 90px;
-   padding-bottom: 20px;
-   
-}
 
 }
 
 @media (max-width: 1028px) {
 
-.span-heading-windows {
-   position: relative;
-   float: left;
-   left: 200px;
-   color: #e0e9f0;
-   font-size: 1.1em;
-   padding-bottom: 12px;
-   letter-spacing: 5px;
 }
-
-.span-heading-linux {
-   position: relative;
-   float: left;	
-   left: 240px;
-   color: #e0e9f0;
-   font-size: 1.1em;
-   padding-bottom: 12px;
-   letter-spacing: 5px;
-}
-
-.download-windows {
-	position: relative;
-	top: calc(0px - 88px);
-	right: calc(0px - 545px);
-	width: 230px;
-	height: 60px;
-
-}
-.download-windows:hover {
-	right: calc(0px - 545px);       
-}
-
-.download-linux {
-	position: relative;
-	top: calc(0px - 82px);
-	right: calc(0px - 545px);
-	width: 230px;
-	height: 60px;
-
-}
-.download-linux:hover {
-	right: calc(0px - 545px);       
-}
-
-}
-
 
 @media (max-width: 868px) {
 
-.span-heading-windows {
-   position: relative;
-   float: left;
-   left: 120px;
-   color: #e0e9f0;
-   font-size: 1.1em;
-}
-
-.span-heading-linux {
-   position: relative;
-   float: left;	
-   left: 165px;
-   color: #e0e9f0;
-   font-size: 1.1em;
-}
-
-.download-windows {
-	position: relative;
-	top: calc(0px - 88px);
-	right: calc(0px - 425px);
-	width: 230px;
-	height: 60px;
 
 }
-.download-windows:hover {
-	right: calc(0px - 425px);       
-}
-
-.download-linux {
-	position: relative;
-	top: calc(0px - 82px);
-	right: calc(0px - 425px);
-	width: 230px;
-	height: 60px;
-
-}
-.download-linux:hover {
-	right: calc(0px - 425px);       
-}
-
-
-}
-
-
 
 @media (max-width: 768px) {
  
-.span-heading-windows {
-   position: relative;
-   float: left;
-   left: 100px;
-   color: #e0e9f0;
-   font-size: 1.1em;
-}
-
-.span-heading-linux {
-   position: relative;
-   float: left;	
-   left: 145px;
-   color: #e0e9f0;
-   font-size: 1.1em;
-}
-
-.download-windows {
-	position: relative;
-	top: calc(0px - 88px);
-	right: calc(0px - 405px);
-	width: 230px;
-	height: 60px;
 
 }
-.download-windows:hover {
-	right: calc(0px - 405px);       
-}
-
-.download-linux {
-	position: relative;
-	top: calc(0px - 82px);
-	right: calc(0px - 405px);
-	width: 230px;
-	height: 60px;
-
-}
-.download-linux:hover {
-	right: calc(0px - 405px);       
-}
-
-.fa {
-        left: 23px;
-        top: 13px;
-}
-
-.span-heading {
-   font-size: 14px;
-} 
-
-}
-
 
 @media (max-width: 668px) {
 
-.span-heading-windows {
-   position: relative;
-   float: left;
-   top: -55px;
-   left: 180px;
-   font-size: 0.9em;
-
-}
-
-.span-heading-linux {
-   position: relative;
-   float: left;	
-   top: -55px;
-   left: 210px;
-   font-size: 0.9em;
-
-}
-
-.download-windows {
-	position: relative;
-	top: calc(0px - 50px);
-	right: calc(0px - 200px);
-
-}
-
-.download-windows:hover {
-	right: calc(0px - 200px);       
-}
-
-.download-linux {
-	position: relative;
-	top: calc(0px - 35px);
-	right: calc(0px - 150px);
-
-}
-
-.download-linux:hover {
-	right: calc(0px - 150px);       
-}
 
 }
 
 @media  (max-width: 558px) {
-    
-.span-heading-windows {
-   position: relative;
-   float: left;
-   top: -55px;
-   left: 130px;
-   font-size: 0.9em;
-
-}
-
-.span-heading-linux {
-   position: relative;
-   float: left;	
-   top: -55px;
-   left: 160px;
-   font-size: 0.9em;
-
-}
-
-.download-windows {
-	position: relative;
-	top: calc(0px - 50px);
-	right: calc(0px - 150px);
-
-}
-
-.download-windows:hover {
-	right: calc(0px - 150px);       
-}
-
-.download-linux {
-	position: relative;
-	top: calc(0px - 35px);
-	right: calc(0px - 150px);
-
-}
-
-.download-linux:hover {
-	right: calc(0px - 150px);       
-}
-
-.fa {
-        left: 23px;
-        top: 13px;
-}
-
-.span-heading {
-   font-size: 14px;
-} 
 
 
 }
@@ -501,151 +264,14 @@ html, body
 @media  (max-width: 448px) {
 
 
-.span-heading-windows {
-   position: relative;
-   float: left;
-   top: -55px;
-   left: 90px;
-
 }
-
-.span-heading-linux {
-   position: relative;
-   float: left;	
-   top: -55px;
-   left: 120px;
-
-}
-
-.download-windows {
-	position: relative;
-	top: calc(0px - 50px);
-	right: calc(0px - 95px);
-
-}
-
-.download-windows:hover {
-	right: calc(0px - 95px);       
-}
-
-.download-linux {
-	position: relative;
-	top: calc(0px - 35px);
-	right: calc(0px - 95px);
-
-}
-
-.download-linux:hover {
-	right: calc(0px - 95px);       
-}
-
-.fa {
-        left: 20px;
-        top: 11px;
-}
-
-.span-heading {
-   font-size: 12px;
-} 
-
-}
-
-
 
 @media  (max-width: 398px) {
-  
-.span-heading-windows {
-   position: relative;
-   float: left;
-   top: -55px;
-   left: 75px;
-   font-size: 0.7em;
 
-}
-
-.span-heading-linux {
-   position: relative;
-   float: left;	
-   top: -55px;
-   left: 100px;
-   font-size: 0.7em;
-
-}
-
-.download-windows {
-	position: relative;
-	top: calc(0px - 50px);
-	right: calc(0px - 85px);
-
-}
-
-.download-windows:hover {
-	right: calc(0px - 85px);       
-}
-
-.download-linux {
-	position: relative;
-	top: calc(0px - 35px);
-	right: calc(0px - 85px);
-
-}
-
-.download-linux:hover {
-	right: calc(0px - 85px);       
-}
-
-.span-heading {
-   font-size: 10px;
-} 
 
 }
 
 @media  (max-width: 338px) {
   
-.span-heading-windows {
-   position: relative;
-   float: left;
-   top: -55px;
-   left: 55px;
-   font-size: 0.7em;
 
 }
-
-.span-heading-linux {
-   position: relative;
-   float: left;	
-   top: -55px;
-   left: 85px;
-   font-size: 0.7em;
-
-}
-
-.download-windows {
-	position: relative;
-	top: calc(0px - 50px);
-	right: calc(0px - 65px);
-
-}
-
-.download-windows:hover {
-	right: calc(0px - 65px);       
-}
-
-.download-linux {
-	position: relative;
-	top: calc(0px - 35px);
-	right: calc(0px - 65px);
-
-}
-
-.download-linux:hover {
-	right: calc(0px - 65px);       
-}
-
-.span-heading {
-   font-size: 09px;
-} 
-
-}
-
-
