@@ -238,6 +238,23 @@ html, body
    border-radius: 30px;
 }
 
+
+.modal-body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 2px solid black; 
+   border-top: 2px solid black;
+   background: #333;
+}
+
+.modal-body img {
+   height: 75px;
+   width: auto;
+   
+}
+
 ::-webkit-scrollbar
 {
    width: 10;
