@@ -246,13 +246,23 @@ html, body
    justify-content: center;
    border-bottom: 2px solid black; 
    border-top: 2px solid black;
-   background: #333;
+   background: #303030;
 }
 
 .modal-body img {
    height: 75px;
    width: auto;
    
+}
+
+.modal-body a {
+   box-shadow: 5px 5px #111;
+}
+
+.modal-body a:hover {
+   transform: translateY(3px);
+   box-shadow: 9px 9px #000;
+
 }
 
 ::-webkit-scrollbar
