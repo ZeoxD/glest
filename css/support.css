@@ -73,16 +73,17 @@ html, body
 
 
 .container-1 div {
-     margin-top: 31px;
+     margin-top: 40px;
      display: flex;
      flex-direction: row;
      align-items: center;
      justify-content: center;
+     padding: 10px solid white;
 
 }
 
 .container-2 div{
-    margin-top: 31px;
+    margin-top: 41px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,61 +94,49 @@ html, body
 
 
 .box-1 img {
-   width: 300px;
+   width: 480px;
    height: auto;
 
 }
 
 .box-11 img {
-   width: 300px;
+   width: 460px;
    height: auto;
 
 }
 .box-12 img {
-   width: 300px;
+   width: 440px;
    height: auto;
 
 }
 .box-13 img {
-   width: 300px;
+   width: 420px;
    height: auto;
 
 }
 
 .box-2 img {
-   width: 630px;
+   width: 830px;
    height: auto;
 
 }
 
 .img-left-shadow {
    box-shadow: -6px 6px #111;
-  -ms-transform: rotate(1deg); /* IE 9 */
-  -webkit-transform: rotate(1deg); /* Safari */
-  transform: rotate(1deg);
 }
 
 .img-left-shadow:hover {
    transform: translateY(3px);
    box-shadow: -10px 10px #000;
-  -ms-transform: rotate(-1deg); /* IE 9 */
-  -webkit-transform: rotate(-1deg); /* Safari */
-  transform: rotate(-1deg);
 }
 
 .img-right-shadow {
    box-shadow: 6px 6px #111;
-  -ms-transform: rotate(-1deg); /* IE 9 */
-  -webkit-transform: rotate(-1deg); /* Safari */
-  transform: rotate(-1deg);
 }
 
 .img-right-shadow:hover {
    transform: translateY(3px);
    box-shadow: 10px 10px #000;
-  -ms-transform: rotate(1deg); /* IE 9 */
-  -webkit-transform: rotate(1deg); /* Safari */
-  transform: rotate(1deg);
 }
 
 .img-shadow {
@@ -203,24 +192,57 @@ html, body
    background-color: #1f3241;
 }
 
+@media (max-width: 1080px) {
+
+
+
+.box-1 img {
+   width: 320px;
+   height: auto;
+
+}
+
+.box-11 img {
+   width: 300px;
+   height: auto;
+
+}
+.box-12 img {
+   width: 280px;
+   height: auto;
+
+}
+.box-13 img {
+   width: 260px;
+   height: auto;
+
+}
+
+.box-2 img {
+   width: 510px;
+   height: auto;
+
+}
+
+}
 
 @media (max-width: 768px) {
 
 
 
 .box-1 img {
-   width: 200px;
+   width: 260px;
    height: auto;
 
 }
 
 .box-11 img {
-   width: 200px;
+   width: 240px;
    height: auto;
 
 }
 .box-12 img {
-   width: 200px;
+   width: 220px;
    height: auto;
 
 }
@@ -231,7 +253,75 @@ html, body
 }
 
 .box-2 img {
-   width: 430px;
+   width: 390px;
+   height: auto;
+
+}
+
+}
+
+@media (max-width: 638px) {
+
+
+
+.box-1 img {
+   width: 220px;
+   height: auto;
+
+}
+
+.box-11 img {
+   width: 200px;
+   height: auto;
+
+}
+.box-12 img {
+   width: 180px;
+   height: auto;
+
+}
+.box-13 img {
+   width: 160px;
+   height: auto;
+
+}
+
+.box-2 img {
+   width: 310px;
+   height: auto;
+
+}
+
+}
+
+@media (max-width: 512px) {
+
+
+
+.box-1 img {
+   width: 160px;
+   height: auto;
+
+}
+
+.box-11 img {
+   width: 150px;
+   height: auto;
+
+}
+.box-12 img {
+   width: 140px;
+   height: auto;
+
+}
+.box-13 img {
+   width: 130px;
+   height: auto;
+
+}
+
+.box-2 img {
+   width: 290px;
    height: auto;
 
 }
@@ -249,57 +339,23 @@ html, body
 }
 
 .box-11 img {
-   width: 150px;
+   width: 140px;
    height: auto;
 
 }
 .box-12 img {
-   width: 150px;
+   width: 130px;
    height: auto;
 
 }
 .box-13 img {
-   width: 150px;
+   width: 120px;
    height: auto;
 
 }
 
 .box-2 img {
-   width: 330px;
-   height: auto;
-
-}
-
-}
-
-@media (max-width: 498px) {
-
-
-
-.box-1 img {
-   width: 150px;
-   height: auto;
-
-}
-
-.box-11 img {
-   width: 150px;
-   height: auto;
-
-}
-.box-12 img {
-   width: 150px;
-   height: auto;
-
-}
-.box-13 img {
-   width: 150px;
-   height: auto;
-
-}
-
-.box-2 img {
-   width: 330px;
+   width: 250px;
    height: auto;
 
 }
@@ -315,23 +371,23 @@ html, body
 }
 
 .box-11 img {
-   width: 120px;
+   width: 115px;
    height: auto;
 
 }
 .box-12 img {
-   width: 120px;
+   width: 110px;
    height: auto;
 
 }
 .box-13 img {
-   width: 120px;
+   width: 105px;
    height: auto;
 
 }
 
 .box-2 img {
-   width: 270px;
+   width: 230px;
    height: auto;
 
 }
@@ -347,26 +403,25 @@ html, body
 }
 
 .box-11 img {
-   width: 110px;
+   width: 105px;
    height: auto;
 
 }
 .box-12 img {
-   width: 110px;
+   width: 100px;
    height: auto;
 
 }
 .box-13 img {
-   width: 110px;
+   width: 95px;
    height: auto;
 
 }
 
 .box-2 img {
-   width: 250px;
+   width: 210px;
    height: auto;
 
 }
 
 }
-
