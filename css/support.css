@@ -96,28 +96,33 @@ html, body
 .box-1 img {
    width: 480px;
    height: auto;
+   opacity: 0.5;
 
 }
 
 .box-11 img {
    width: 460px;
    height: auto;
+   opacity: 0.45;
 
 }
 .box-12 img {
    width: 440px;
    height: auto;
+   opacity: 0.4;
 
 }
 .box-13 img {
    width: 420px;
    height: auto;
+   opacity: 0.35;
 
 }
 
 .box-2 img {
    width: 830px;
    height: auto;
+   opacity: 0.3;
 
 }
 
